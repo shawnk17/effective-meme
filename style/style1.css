@@ -1,4 +1,33 @@
 body{
     background:url(pic/bg.jpg);
     background-blend-mode:url(pic/bg.jpg);
+    background-color: rgb(244, 247, 248);
+}
+nav,
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: none; 
+   
+}
+nav ul li {
+    padding: .3rem;
+    margin-inline-start: .3rem;
+    justify-content: space-around;
+    }
+
+ nav ul li a{
+     color: rgb(146, 46, 240);
+ }   
+ nav ul li a:hover{
+    color: red;
+}  
+
+footer {
+    clear: both;
+    background-color:palegoldenrod;
+}
+
+#rapper {
+    display: flex;
 }
