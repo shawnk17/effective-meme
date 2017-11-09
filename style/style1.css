@@ -4,6 +4,7 @@ body{
     background-blend-mode:url(pic/bg.jpg);
     background-color: rgb(244, 247, 248);
 }
+
 nav,
 nav ul {
     display: flex;
